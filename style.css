@@ -1,4 +1,4 @@
-ul2 {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -9,27 +9,27 @@ ul2 {
     overflow: auto;
 }
 
-li2 a {
+li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li2 a.active {
+li a.active {
     background-color: #4CAF50;
-    color: white;
+    color: rgb(21,46,173);
 }
 
-li2 a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #555;
-    color: white;
+    color: light_red;
 }
 
         h2 {
-            color: rgb(21, 46, 173);
+            color: #f1f1f1;
         }
 
         body {
-            background-color: rgb(214, 70, 70);
-            margin:0;
+            background-color: #ad155a;
+          }
